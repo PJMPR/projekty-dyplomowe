@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <title>Uczelniana Chmura Obliczeniowa (OpenStack)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #020617;
+      color: #e5e7eb;
+    }
+    .wrap {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem 3rem;
+    }
+    a { color: #38bdf8; }
+    header h1 {
+      margin-top: 0;
+      font-size: clamp(1.8rem, 4vw, 2.3rem);
+    }
+    header p {
+      color: #9ca3af;
+      max-width: 640px;
+    }
+    section { margin-top: 1.5rem; }
+    h2 {
+      font-size: 1.2rem;
+      margin-bottom: .3rem;
+    }
+    ul { padding-left: 1.2rem; }
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: .3rem;
+      font-size: .9rem;
+      margin-bottom: 1rem;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <a class="back-link" href="../index.html">← Powrót do spisu projektów</a>
+
+    <header>
+      <h1>Uczelniana Chmura Obliczeniowa (OpenStack)</h1>
+      <p>
+        Projekt zakłada zaprojektowanie, wdrożenie i udokumentowanie chmury obliczeniowej opartej na OpenStack,
+        działającej na serwerach uczelni. Środowisko będzie wykorzystywane jako zaplecze obliczeniowe dla innych
+        projektów studenckich oraz zajęć dydaktycznych.
+      </p>
+    </header>
+
+    <section>
+      <h2>Główne cele</h2>
+      <ul>
+        <li>Uruchomienie i konfiguracja klastra OpenStack na serwerach uczelnianych.</li>
+        <li>Zapewnienie bezpiecznego środowiska do tworzenia i uruchamiania maszyn wirtualnych.</li>
+        <li>Integracja z repozytorium Docker oraz klastrem Kubernetes.</li>
+        <li>Stworzenie środowiska do realizacji procesów DevOps i CI/CD.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Zakres prac</h2>
+      <ul>
+        <li>Projekt architektury: węzły kontrolne, obliczeniowe, sieciowe.</li>
+        <li>Konfiguracja usług: Nova, Neutron, Glance, Keystone, Cinder, Horizon.</li>
+        <li>Polityki bezpieczeństwa, segmentacja sieci, monitoring.</li>
+        <li>Repozytorium obrazów Docker i integracja z Kubernetes.</li>
+        <li>Przygotowanie dokumentacji oraz instrukcji dla studentów i dydaktyków.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Efekty dla uczelni</h2>
+      <ul>
+        <li>Własna, kontrolowana infrastruktura chmurowa.</li>
+        <li>Możliwość prowadzenia zajęć z chmury, DevOps, CI/CD na realnym środowisku.</li>
+        <li>Ułatwione wdrażanie i testowanie projektów studenckich.</li>
+      </ul>
+    </section>
+  </div>
+</body>
+</html>

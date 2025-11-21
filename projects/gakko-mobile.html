@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <title>Gakko Mobile</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #020617;
+      color: #e5e7eb;
+    }
+    .wrap {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem 3rem;
+    }
+    a { color: #38bdf8; }
+    header h1 {
+      margin-top: 0;
+      font-size: clamp(1.8rem, 4vw, 2.3rem);
+    }
+    header p {
+      color: #9ca3af;
+      max-width: 640px;
+    }
+    section { margin-top: 1.5rem; }
+    h2 {
+      font-size: 1.2rem;
+      margin-bottom: .3rem;
+    }
+    ul { padding-left: 1.2rem; }
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: .3rem;
+      font-size: .9rem;
+      margin-bottom: 1rem;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <a class="back-link" href="../index.html">← Powrót do spisu projektów</a>
+
+    <header>
+      <h1>Gakko Mobile</h1>
+      <p>
+        Gakko Mobile to mobilna wersja uczelnianego systemu Gakko, przeznaczona dla kandydatów,
+        studentów, osób korzystających z usług uczelni, a w przyszłości również pracowników.
+        Aplikacja ma ułatwiać dostęp do informacji i usług z poziomu smartfona.
+      </p>
+    </header>
+
+    <section>
+      <h2>Główne cele</h2>
+      <ul>
+        <li>Zapewnienie wygodnego dostępu do kluczowych funkcji Gakko na urządzeniach mobilnych.</li>
+        <li>Usprawnienie komunikacji uczelnia–student poprzez powiadomienia i aktualne dane.</li>
+        <li>Integracja z istniejącą infrastrukturą Gakko i systemami uczelni.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Kluczowe funkcjonalności</h2>
+      <ul>
+        <li>Notyfikacje o wydarzeniach uczelnianych i ważnych komunikatach.</li>
+        <li>Podgląd planu zajęć z powiadomieniami o zmianach.</li>
+        <li>Składanie i śledzenie podań oraz wniosków.</li>
+        <li>Podgląd statusu płatności oraz obsługa płatności online.</li>
+        <li>Raportowanie problemów na uczelni (usterki, dostępność, infrastruktura).</li>
+        <li>Tryb dla kandydatów: rekrutacja, terminy, status aplikacji.</li>
+        <li>Potencjalnie: wirtualna legitymacja, mapa kampusu, integracja z biblioteką.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Techniczne aspekty projektu</h2>
+      <ul>
+        <li>Implementacja aplikacji na Android/iOS (np. Flutter, React Native lub natywnie).</li>
+        <li>Integracja poprzez API z backendem Gakko.</li>
+        <li>System powiadomień push oraz obsługa sesji użytkownika.</li>
+        <li>Zachowanie wymogów bezpieczeństwa (autoryzacja, szyfrowanie, RODO).</li>
+      </ul>
+    </section>
+  </div>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dojo – Platforma dla dydaktyków</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #020617;
+      color: #e5e7eb;
+    }
+    .wrap {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem 3rem;
+    }
+    a { color: #38bdf8; }
+    header h1 {
+      margin-top: 0;
+      font-size: clamp(1.8rem, 4vw, 2.3rem);
+    }
+    header p {
+      color: #9ca3af;
+      max-width: 640px;
+    }
+    section { margin-top: 1.5rem; }
+    h2 {
+      font-size: 1.2rem;
+      margin-bottom: .3rem;
+    }
+    ul { padding-left: 1.2rem; }
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: .3rem;
+      font-size: .9rem;
+      margin-bottom: 1rem;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <a class="back-link" href="../index.html">← Powrót do spisu projektów</a>
+
+    <header>
+      <h1>Dojo – Platforma dla dydaktyków</h1>
+      <p>
+        Dojo to platforma wspierająca dydaktyków w prowadzeniu zajęć programistycznych z wykorzystaniem
+        GitHub i GitHub Classroom. Projekt koncentruje się na automatyzacji sprawdzania zadań,
+        raportowaniu postępów studentów oraz standaryzacji procesu oceniania.
+      </p>
+    </header>
+
+    <section>
+      <h2>Główne cele</h2>
+      <ul>
+        <li>Automatyzacja procesu sprawdzania zadań programistycznych.</li>
+        <li>Zapewnienie przejrzystego obrazu postępów studentów.</li>
+        <li>Stworzenie spójnego środowiska pracy dla dydaktyków na GitHubie.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Zakres prac</h2>
+      <ul>
+        <li>Integracja z GitHub Classroom do dystrybucji i zarządzania repozytoriami studenckimi.</li>
+        <li>Przygotowanie pipeline’ów CI/CD uruchamianych przy każdym zadaniu.</li>
+        <li>Wykorzystanie języka PKL do definiowania konfiguracji pipeline’ów przez wykładowców.</li>
+        <li>Generowanie automatycznych raportów (wyniki testów, jakość kodu, statusy zadań).</li>
+        <li>Powiadamianie studentów i prowadzących o wynikach oraz problemach.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Korzyści dydaktyczne</h2>
+      <ul>
+        <li>Szybszy feedback dla studentów i większa motywacja do iteracyjnej nauki.</li>
+        <li>Możliwość objęcia większej grupy studentów przy tym samym nakładzie pracy.</li>
+        <li>Standaryzacja kryteriów oceniania w wielu grupach i semestrach.</li>
+        <li>Dane do analiz (statystyki, wykrywanie trudniejszych zagadnień).</li>
+      </ul>
+    </section>
+  </div>
+</body>
+</html>
